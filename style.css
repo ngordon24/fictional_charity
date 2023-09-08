@@ -1,9 +1,10 @@
-
-body, h1, h2, p {
+.body-style,
+.h1-style,
+.h2-style,
+.p-style {
   margin: 0;
   padding: 0;
 }
-
 
 .title {
   text-align: center;
@@ -19,13 +20,12 @@ body, h1, h2, p {
   margin-bottom: 20px;
 }
 
-
 .charity-info {
   width: 80%;
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8); 
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
 }
 
@@ -39,16 +39,11 @@ body, h1, h2, p {
   max-width: 45%;
 }
 
-
-footer {
+.footer-style {
   text-align: center;
   padding: 20px;
   background-color: #f0f0f0;
 }
-body {
+.body-style {
   background-color: #f5f5c1;
-  
- 
-
 }
-
